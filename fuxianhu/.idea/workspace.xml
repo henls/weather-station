@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20b1c39c-620c-4ae1-b058-fe7d9b58a332" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/learn0.2/practice0.5.js" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1OrDFaqaLrulNLIlqjoEOjmgKqx" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="forecaststation" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\forecaststation" />
+      <recent name="D:\forecaststation\learn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\forecaststation" />
+      <recent name="D:\forecaststation\task\www" />
+      <recent name="D:\forecaststation\task\router" />
+      <recent name="D:\forecaststation\task\views" />
+      <recent name="D:\forecaststation\js的脚本练习" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="practice0.4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="practice0.4.js" working-dir="$PROJECT_DIR$/learn0.2">
+      <method v="2" />
+    </configuration>
+    <configuration name="practice0.5.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="practice0.5.js" working-dir="$PROJECT_DIR$/learn0.2">
+      <method v="2" />
+    </configuration>
+    <configuration name="prectice0.7.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn0.1/prectice0.7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="readdata.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="readdata.js" working-dir="$PROJECT_DIR$/www">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/task">
+      <method v="2" />
+    </configuration>
+    <configuration name="stringtodata.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="stringtodata.js" working-dir="$PROJECT_DIR$/task">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.stringtodata.js" />
+        <item itemvalue="Node.js.readdata.js" />
+        <item itemvalue="Node.js.practice0.5.js (1)" />
+        <item itemvalue="Node.js.practice0.4.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20b1c39c-620c-4ae1-b058-fe7d9b58a332" name="Default Changelist" comment="" />
+      <created>1564726718458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564726718458</updated>
+      <workItem from="1564726720818" duration="19574000" />
+      <workItem from="1564800078793" duration="315000" />
+      <workItem from="1564800446701" duration="2466000" />
+      <workItem from="1564802977363" duration="559000" />
+      <workItem from="1564803550694" duration="2402000" />
+      <workItem from="1564805975948" duration="4762000" />
+      <workItem from="1564810775222" duration="13991000" />
+      <workItem from="1564892985806" duration="777000" />
+      <workItem from="1564973711850" duration="166000" />
+      <workItem from="1564985407619" duration="669000" />
+      <workItem from="1565000625291" duration="5064000" />
+      <workItem from="1565006207455" duration="197000" />
+      <workItem from="1565006564016" duration="6068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+</project>

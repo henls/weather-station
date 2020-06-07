@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>温度当天数据</title>
+    <link rel='Shortcut Icon' href='/bitbug_favicon.ico' type="image/x-icon" />
+</head>
+<body>
+<div style="font-size:30px" align='center'><a href="/metestat/data">点击返回</a>
+<div align="center"><img id="myimage" width=115% height=130% ><br>
+</div>
+<script>
+    /*var date = new Date();
+    date= date.toLocaleDateString()
+    date=date.split('/')
+    date = date[0]+'-0'+date[1]+'-0'+date[2]*/
+    var date = new Date();
+    dateNow= date.toLocaleDateString()
+    var month_=dateNow.split('/')[1]
+    var day_ = dateNow.split('/')[2]
+    switch(month_.length)
+    {
+        case 2:switch (day_.length){case 2:dateNow=dateNow.split('/')[0]+'-'+dateNow.split('/')[1]+'-'+dateNow.split('/')[2];break;
+            case 1:dateNow=dateNow.split('/')[0]+'-'+dateNow.split('/')[1]+'-0'+dateNow.split('/')[2];break; };break;
+        case 1:switch (day_.length){case 2:dateNow=dateNow.split('/')[0]+'-0'+dateNow.split('/')[1]+'-'+dateNow.split('/')[2];break;
+            case 1:dateNow=dateNow.split('/')[0]+'-0'+dateNow.split('/')[1]+'-0'+dateNow.split('/')[2];break;};break;
+
+    }
+    //window.alert(date)
+    var str1 = "./"+dateNow+'/temp'+dateNow+'.jpg'
+    //var str1="./2019-09-04/dew2019-09-04.jpg"
+    document.getElementById('myimage').src=str1
+    </script>
+
+</body>
+</html>

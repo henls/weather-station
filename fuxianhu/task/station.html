@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <style media="screen">
+        .box{width: 200px;height: 200px;background: red;}
+    </style>
+</head>
+<body>
+<p><img src="./111.jpg" alt="picture" width="420" height="400" ismap="ismap" ></p><br>
+<div>
+<input type="file" id="files" style="display: none" onchange="fileImport();">
+
+    <textarea name="content" rows="8" cols="40" id="context"></textarea>
+    <input type="button" id="fileImport" value="导入">
+</div>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    //点击导入按钮,使files触发点击事件,然后完成读取文件的操作
+    $("#fileImport").click(function () {
+         $("#files").click();
+     })
+
+    function fileImport() {
+        //获取读取我文件的File对象
+        var selectedFile = document.getElementById('files').files[0];
+        var name = selectedFile.name;//读取选中文件的文件名
+        var size = selectedFile.size;//读取选中文件的大小
+        console.log("文件名:"+name+"大小:"+size);
+        console.log(selectedFile);
+        var reader = new FileReader();//这是核心,读取操作就是由它完成.
+        reader.readAsText(selectedFile);//读取文件的内容,也可以读取文件的URL
+        //console.log("111");
+        reader.onload = function () {
+            //当读取完成后回调这个函数,然后此时文件的内容存储到了result中,直接操作即可
+            //console.log(this.result);
+            var context=document.getElementById('context');
+            context.value=this.result;
+        }
+    }
+</script>
+<div class="box" onclick="alert('abc')"> </div>
+</body>
+</html>
